@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Lets check again'
                 echo'ls'
+                sh'ls'
                 sh 'ls -l app.py requirements.txt'
             }
         }
